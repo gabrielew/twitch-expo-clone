@@ -21,7 +21,7 @@ This mobile front-end features the latest tools and practices in mobile developm
 - ⚛ **[Expo](https://expo.io)** — Is an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React
 - 💅 **CSS** — styled-components
 
-I've used other libraries too, like **react-native-gesture-handler** for handle with users gestures & tz; **react-native-screens** for differents tabs.
+I've used other libraries too, like **react-native-gesture-handler** for handle with users gestures; **react-native-screens** for differents tabs.
 
 ## Getting started
 
