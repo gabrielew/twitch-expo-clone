@@ -1,5 +1,5 @@
-import React from 'react';
-import avatar from '../../images/avatar.jpg'
+import React from "react";
+import avatar from "../../images/avatar.jpg";
 
 import {
   List,
@@ -12,7 +12,7 @@ import {
   Info,
   RightSide,
   WhiteCircle,
-} from './styles';
+} from "./styles";
 
 const ChannelList: React.FC = () => {
   const ChannelItem = () => (
@@ -22,7 +22,7 @@ const ChannelList: React.FC = () => {
           <Avatar source={avatar} />
         </AvatarContainer>
 
-        <Column >
+        <Column>
           <Username></Username>
           <Info>36 news videos</Info>
         </Column>
@@ -32,7 +32,7 @@ const ChannelList: React.FC = () => {
         <WhiteCircle />
       </RightSide>
     </ChannelContainer>
-  )
+  );
 
   return (
     <List>

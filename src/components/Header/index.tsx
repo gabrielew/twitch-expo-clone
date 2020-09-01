@@ -1,10 +1,21 @@
-import React from 'react';
-import { MaterialIcons, MaterialCommunityIcons, Feather } from '@expo/vector-icons';
+import React from "react";
+import {
+  MaterialIcons,
+  MaterialCommunityIcons,
+  Feather,
+} from "@expo/vector-icons";
 
-import { Container, AvatarContainer, Avatar, OnlineStatus, RightSide, Button, MessageStatus } from './styles';
-import colors from '../../styles/colors';
-import avatar from '../../images/avatar.jpg'
-
+import {
+  Container,
+  AvatarContainer,
+  Avatar,
+  OnlineStatus,
+  RightSide,
+  Button,
+  MessageStatus,
+} from "./styles";
+import colors from "../../styles/colors";
+import avatar from "../../images/avatar.jpg";
 
 const Header: React.FC = () => {
   return (
@@ -15,11 +26,19 @@ const Header: React.FC = () => {
       </AvatarContainer>
       <RightSide>
         <Button>
-          <MaterialIcons name="notifications-none" size={26} color={colors.black} />
+          <MaterialIcons
+            name="notifications-none"
+            size={26}
+            color={colors.black}
+          />
           <MessageStatus />
         </Button>
         <Button>
-          <MaterialCommunityIcons name="message-outline" size={26} color={colors.black} />
+          <MaterialCommunityIcons
+            name="message-outline"
+            size={26}
+            color={colors.black}
+          />
         </Button>
         <Button>
           <Feather name="search" size={26} color={colors.black} />

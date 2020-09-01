@@ -1,5 +1,5 @@
-import React from 'react';
-import streamThumbnail from '../../images/stream_thumbnail.jpg'
+import React from "react";
+import streamThumbnail from "../../images/stream_thumbnail.jpg";
 
 import {
   List,
@@ -15,7 +15,7 @@ import {
   TagRow,
   TagView,
   TagText,
-} from './styles';
+} from "./styles";
 
 const StreamList: React.FC = () => {
   const StreamItem = () => (
@@ -46,7 +46,7 @@ const StreamList: React.FC = () => {
         </TagRow>
       </StreamColumn>
     </StreamContainer>
-  )
+  );
 
   return (
     <List>

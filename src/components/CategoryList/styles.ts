@@ -1,11 +1,10 @@
-import styled from 'styled-components/native';
-import colors from '../../styles/colors';
+import styled from "styled-components/native";
+import colors from "../../styles/colors";
 
 export const List = styled.ScrollView.attrs({
   horizontal: true,
 })`
   padding: 8px 0 24px;
-
 `;
 export const CategoryContainer = styled.TouchableOpacity`
   margin-right: 10px;

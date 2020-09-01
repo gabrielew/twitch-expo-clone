@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   List,
   CategoryContainer,
@@ -7,17 +7,14 @@ import {
   CategoryStatus,
   RedCircle,
   Info,
-} from './styles';
-import data from './data';
+} from "./styles";
+import data from "./data";
 
 interface ItemProps {
-  item: typeof data[0]
+  item: typeof data[0];
 }
 
-
 const CategoryList: React.FC = () => {
-
-
   const CategoryItem: React.FC<ItemProps> = ({ item }) => (
     <CategoryContainer>
       <CategoryImage source={item.source} />
@@ -27,10 +24,10 @@ const CategoryList: React.FC = () => {
         <Info>{item.info}K</Info>
       </CategoryStatus>
     </CategoryContainer>
-  )
+  );
   return (
     <List>
-      {data.map(item => (
+      {data.map((item) => (
         <CategoryItem key={item.name} item={item} />
       ))}
     </List>

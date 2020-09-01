@@ -1,5 +1,5 @@
-import styled from 'styled-components/native';
-import colors from '../../styles/colors';
+import styled from "styled-components/native";
+import colors from "../../styles/colors";
 
 export const List = styled.View`
   padding: 8px 0 0;
@@ -15,7 +15,6 @@ export const ChannelContainer = styled.TouchableOpacity`
 export const LeftSide = styled.View`
   flex-direction: row;
   align-items: center;
-
 `;
 
 export const AvatarContainer = styled.TouchableOpacity`
@@ -28,7 +27,7 @@ export const AvatarContainer = styled.TouchableOpacity`
 `;
 
 export const Avatar = styled.Image`
- background: ${colors.tag};
+  background: ${colors.tag};
   width: 44px;
   height: 44px;
   border-radius: 22px;

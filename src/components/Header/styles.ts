@@ -1,5 +1,5 @@
-import styled from 'styled-components/native';
-import colors from '../../styles/colors';
+import styled from "styled-components/native";
+import colors from "../../styles/colors";
 
 export const Container = styled.View`
   flex-direction: row;
@@ -36,15 +36,15 @@ export const OnlineStatus = styled.View`
   position: absolute;
   bottom: 0;
   right: 0;
-`
+`;
 export const RightSide = styled.View`
   flex-direction: row;
   align-items: center;
   margin-left: 20px;
-`
+`;
 export const Button = styled.TouchableOpacity`
   margin-left: 20px;
-`
+`;
 
 export const MessageStatus = styled.View`
   background: ${colors.red};
@@ -57,5 +57,4 @@ export const MessageStatus = styled.View`
   position: absolute;
   bottom: 0;
   right: 0;
-`
-
+`;
