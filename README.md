@@ -5,8 +5,14 @@
 <p align="left">
   <a href="https://twitter.com/intent/user?screen_name=Gabriel75056738" target="_blank">
     <img
-      src="https://img.shields.io/twitter/follow/Gabriel75056738?label=Follow%20Gabriel%20Alcantara&style=social"
-      alt="Follow @gabriel75056738"
+      src="https://img.shields.io/badge/-@gabrielew-6633cc?style=flat-square&labelColor=6633cc&logo=twitter&logoColor=white&link=https://twitter.com/Gabriel75056738"
+      alt="Follow @gabriel"
+    />
+  </a>
+  <a href="https://www.linkedin.com/in/gabriel-alcântara-bernardes-a50829159/" target="_blank" style="margin-left: 10px;"s>
+    <img
+      src="https://img.shields.io/badge/-Gabriel%20Alcântara-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-alcântara-bernardes-a50829159/"
+      alt="Follow @gabriel"
     />
   </a>
 </p>
